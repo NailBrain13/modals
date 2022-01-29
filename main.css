@@ -1,0 +1,51 @@
+body {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.modal-buttons {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fade-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(20, 22, 21, 0.69);
+}
+
+.modal-window {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+}
+
+.card-header {
+  text-align: center;
+  color: green;
+}
+
+.card-body {
+  color: gray;
+}
+
+.hidden {
+  display: none;
+}
+
+[data-modal-button],
+[data-modal-close] {
+  cursor: pointer;
+}
